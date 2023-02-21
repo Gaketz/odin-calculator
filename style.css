@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.btn {
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    font-size: 40px;
+    border: 1px solid greenyellow;
+}
+
+.number {
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+}
+
+.operator{
+    border: 1px solid steelblue;
+    border-radius: 10px;
+}
+
+.decimal{
+    border: 1px solid gold;
+    border-radius: 10px;
+}
+
+.equal{
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+}
+
+.clear-btn{
+    border: 1px solid violet;
+    border-radius: 10px;
+}
+
+#screen {
+    width: 250px;
+    border: 1px solid salmon;
+    height: 75px;
+    text-align: center;
+}
+
+.first-row {
+    display: flex;
+}
